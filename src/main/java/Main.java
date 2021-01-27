@@ -36,8 +36,10 @@ public class Main {
             e.printStackTrace();
         }
 
-        // Time to find reports to be deleted
-        ReportFinder reportFinder = new ReportFinder();
-        reportFinder.run(tdapi);
+//        // Time to find reports to be deleted
+//        ReportFinder reportFinder = new ReportFinder();
+//        reportFinder.run(tdapi);
+        ReadSpreadsheet spreadSheet = new ReadSpreadsheet();
+        spreadSheet.start(tdapi);
     }
 }
