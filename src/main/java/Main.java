@@ -39,7 +39,7 @@ public class Main {
 //        // Time to find reports to be deleted
 //        ReportFinder reportFinder = new ReportFinder();
 //        reportFinder.run(tdapi);
-        ReadSpreadsheet spreadSheet = new ReadSpreadsheet();
-        spreadSheet.start(tdapi);
+        ExcelReader excelReader = new ExcelReader();
+        excelReader.start(tdapi);
     }
 }
